@@ -18,10 +18,6 @@
             android:text="@string/email"
             android:textSize="18sp"
             android:padding="8dp"/>
-        <EditText
-            android:hint="@string/enter_your_email"
-            android:padding="8dp"
-            android:layout_width="match_parent"/>
 
     </TableRow>
     <TableRow>
