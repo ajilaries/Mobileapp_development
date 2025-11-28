@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_password">Enter password</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="login_page">Login Page</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="login">Login</string>
+    <string name="signup">Don\'t have an account? Sign up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email</string>
+</resources>
