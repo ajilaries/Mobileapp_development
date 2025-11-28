@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frame Layout "
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+</FrameLayout>
+
+<!--frame layout which is used to show one view or when you want to layer multiple views with the most recently added view apperaing on top-->
+
+<!--<Imageview is used to add an image in the layout and its attributes are :src which is used to give the path of the file which is to be included in the screen-->
+

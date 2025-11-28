@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+<TableRow>
+    <TextView
+        android:text="@string/enter_your_name"
+        android:textSize="18sp"
+        android:padding="8dp"/>
+    <EditText
+        android:hint="@string/enter_your_name"
+        android:padding="8dp"
+        android:layout_width="match_parent"/>
+</TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/email"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+        <EditText
+            android:hint="@string/enter_your_email"
+            android:padding="8dp"
+            android:layout_width="match_parent"/>
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="@string/submit"
+            android:layout_span="2"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+    </TableRow>
+</TableLayout>
+
+
+<!--which is used to create tables in the layout like timetables or something else-->
