@@ -24,11 +24,11 @@
             android:layout_height="wrap_content"/>
 
         <ImageView
-            android:src="@drawable/profile_pic"
+            android:src="@drawable/ic_launcher_foreground"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:scaleType="centerCrop"
-            android:background="@drawable/circle_bg"/>
+            android:background="@drawable/ic_launcher_foreground"/>
     </LinearLayout>
 
     <!-- 2️⃣ Banner / Image -->
@@ -48,8 +48,8 @@
 
         <!-- Optional overlay -->
         <TextView
-            android:text="Welcome to Home"
-            android:textColor="#FFFFFF"
+            android:text="@string/welcome_to_home"
+            android:textColor="#FFFFF"
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

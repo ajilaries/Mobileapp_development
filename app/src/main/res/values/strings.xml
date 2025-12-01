@@ -10,4 +10,19 @@
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="enter_your_email">Enter your email</string>
+    <string name="android">Hello Android</string>
+    <string name="welcome_to_home">Welcome to Home</string>
+    <string name="homescreeen">HomeScreeen</string>
+    <string name="homescreen">"homescreen "</string>
+    <string name="feature_1">Feature 1</string>
+    <string name="feature_2">Feature 2</string>
+    <string name="practice">made for practice</string>
+    <string name="attendence">Attendence</string>
+    <string name="events">Events</string>
+    <string name="assignments">Assignments</string>
+    <string name="notes">Notes</string>
+    <string name="attendance">Attendance</string>
+    <string name="todo">TODO</string>
+    <string name="ajil">Ajil</string>
+    <string name="myname">Ajil Saji</string>
 </resources>
