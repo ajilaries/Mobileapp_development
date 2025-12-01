@@ -1,0 +1,111 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- PROFILE PIC -->
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:scaleType="centerCrop"
+        android:background="@drawable/ic_launcher_background"
+        android:padding="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- NAME -->
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aju"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/profilePic"
+        app:layout_constraintTop_toTopOf="@id/profilePic"
+        android:layout_marginStart="16dp"/>
+
+    <!-- STATUS -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online now"
+        android:textSize="14sp"
+        android:textColor="#666"
+        app:layout_constraintStart_toStartOf="@id/userName"
+        app:layout_constraintTop_toBottomOf="@id/userName"
+        android:layout_marginTop="4dp"/>
+
+    <!-- CHAT BUTTON -->
+    <Button
+        android:id="@+id/chatBtn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="Chat"
+        app:layout_constraintTop_toBottomOf="@id/profilePic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/callBtn"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- CALL BUTTON -->
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="Calls"
+        app:layout_constraintTop_toBottomOf="@id/profilePic"
+        app:layout_constraintStart_toEndOf="@id/chatBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="8dp"/>
+
+    <!-- STATUS OPTION -->
+    <TextView
+        android:id="@+id/optStatus"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:background="#FFB6C1"
+        android:text="Status"
+        app:layout_constraintTop_toBottomOf="@id/chatBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/optCamera"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- CAMERA OPTION -->
+    <TextView
+        android:id="@+id/optCamera"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:background="#98FB98"
+        android:text="Camera"
+        app:layout_constraintTop_toBottomOf="@id/callBtn"
+        app:layout_constraintStart_toEndOf="@id/optStatus"
+        app:layout_constraintEnd_toStartOf="@id/optSettings"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="8dp"/>
+
+    <!-- SETTINGS OPTION -->
+    <TextView
+        android:id="@+id/optSettings"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:background="#ADD8E6"
+        android:text="Settings"
+        app:layout_constraintTop_toBottomOf="@id/callBtn"
+        app:layout_constraintStart_toEndOf="@id/optCamera"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
