@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
@@ -45,8 +46,11 @@ data class Message(val author: String, val body: String)
 
 @Composable
 fun MessageCard(msg: com.example.myapplication.Message) {
-    Text(text = msg.author)
-    Text(text = msg.body)
+    Column {
+        Text(text = msg.author)
+        Text(text = msg.body)
+    }
+
 }
 
 @Preview
@@ -57,3 +61,5 @@ fun PreviewMessageCard() {
     )
 }
 //lesson 2 layouts
+//column functions lets to arrange elements vertically add column to the messagecard function
+//        can use row to arrange items horizontally and box to stack element
