@@ -25,4 +25,5 @@
     <string name="todo">TODO</string>
     <string name="ajil">Ajil</string>
     <string name="myname">Ajil Saji</string>
+    <string name="entername">Enter your name</string>
 </resources>
