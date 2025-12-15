@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <CheckBox
+        android:id="@+id/checkbox_meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="meat"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cheese"
+</LinearLayout>
+<!--Checkbox lets the user select one more options from a set-->
+<!--Typically you present check box options in vertical list-->
+
+<!--To create checkbox option create a CheckBox in your layout . Because a set of checkbox options lets the user to select mutilple items each checkbox is managed separatedly and you must register a click listner for each one-->
