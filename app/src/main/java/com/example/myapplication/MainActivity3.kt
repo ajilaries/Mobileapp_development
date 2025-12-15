@@ -90,37 +90,52 @@ import androidx.compose.ui.tooling.preview.Preview
 //    )
 //}
 // ...
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.unit.dp
+//import androidx.compose.foundation.layout.Spacer
+//import androidx.compose.foundation.layout.height
+//import androidx.compose.foundation.layout.padding
+//import androidx.compose.foundation.layout.size
+//import androidx.compose.foundation.layout.width
+//import androidx.compose.foundation.shape.CircleShape
+//import androidx.compose.ui.draw.clip
+//import androidx.compose.ui.unit.dp
+//
+//@Composable
+//fun MessageCard(msg: Message) {
+//    // Add padding around our message
+//    Row(modifier = Modifier.padding(all = 8.dp)) {
+//        Image(
+//            painter = painterResource(R.drawable.ic_launcher_background),
+//            contentDescription = "Contact profile picture",
+//            modifier = Modifier
+//                // Set image size to 40 dp
+//                .size(40.dp)
+//                // Clip image to be shaped as a circle
+//                .clip(CircleShape)
+//        )
+//
+//        // Add a horizontal space between the image and the column
+//        Spacer(modifier = Modifier.width(8.dp))
+//
+//        Column {
+//            Text(text = msg.author)
+//            // Add a vertical space between the author and message texts
+//            Spacer(modifier = Modifier.height(4.dp))
+//            Text(text = msg.body)
+//        }
+//    }
+//}
+//Alert dialogue which is used to add a popup message in the screen which can give an  alert and blocks the screen till the user responds usually asks confirmation ,warning or info
+//AlertDialogue.Builder(this)
+//        .setTitle("confirm Action")
+//        .setMessage("are you sure you want to delete")
+//        .setCancelable(false)
+//        .setPositiveButton("Yes"){_,_->
+//
+//
+//        }
+//.setNegativeButton("No"){ dialog,_->
+//dialog.dismiss()
+//}
+//.show()
 
-@Composable
-fun MessageCard(msg: Message) {
-    // Add padding around our message
-    Row(modifier = Modifier.padding(all = 8.dp)) {
-        Image(
-            painter = painterResource(R.drawable.ic_launcher_background),
-            contentDescription = "Contact profile picture",
-            modifier = Modifier
-                // Set image size to 40 dp
-                .size(40.dp)
-                // Clip image to be shaped as a circle
-                .clip(CircleShape)
-        )
 
-        // Add a horizontal space between the image and the column
-        Spacer(modifier = Modifier.width(8.dp))
-
-        Column {
-            Text(text = msg.author)
-            // Add a vertical space between the author and message texts
-            Spacer(modifier = Modifier.height(4.dp))
-            Text(text = msg.body)
-        }
-    }
-}
