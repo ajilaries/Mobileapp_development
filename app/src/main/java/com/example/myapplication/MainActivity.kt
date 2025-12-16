@@ -13,18 +13,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val etName = findViewById<EditText>(R.id.etName)
-        val btnSubmit = findViewById<Button>(R.id.btnSubmit)
-        val tvResult = findViewById<TextView>(R.id.tvResult)
+//        val etName = findViewById<EditText>(R.id.etName)
+//        val btnSubmit = findViewById<Button>(R.id.btnSubmit)
+//        val tvResult = findViewById<TextView>(R.id.tvResult)
+//
+//        btnSubmit.setOnClickListener {
+//            val name = etName.text.toString().trim()
+//
+//            if (name.isEmpty()) {
+//                Toast.makeText(this, "Enter something", Toast.LENGTH_SHORT).show()
+//            } else {
+//                tvResult.text = "Hello, $name"
+//            }
+//        }
 
-        btnSubmit.setOnClickListener {
-            val name = etName.text.toString().trim()
-
-            if (name.isEmpty()) {
-                Toast.makeText(this, "Enter something", Toast.LENGTH_SHORT).show()
-            } else {
-                tvResult.text = "Hello, $name"
-            }
-        }
     }
 }
